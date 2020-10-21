@@ -1,0 +1,51 @@
+﻿@model biblioteca_2.Models.entrada
+
+
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h1>@Html.DisplayFor(model => model.titulo)</h1>
+<h1>
+    @if (Model.docs.dir_archivo != "" && Model.docs.dir_archivo != null)
+    {
+        <a href="~/subidas/archivos/@Model.docs.dir_archivo" target="_blank">Descargar</a>
+        <br />
+    }
+</h1>
+<div>
+    <h4>Creado por: @Html.DisplayFor(model => model.AspNetUsers.Email) </h4>
+    @if (Model.portada != "" && Model.portada != null)
+    {
+        <img src="~/subidas/portadas/@Model.portada" height="500" />
+    }
+    <h6>Publicado el:@Html.DisplayFor(model => model.fecha_publicacion)</h6>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <p class="card-text">@Html.Raw(Model.contenido)</p>
+
+                </div>
+                <div class="card-footer text-muted">
+                    Creado @Html.DisplayFor(model => model.fecha_entrada)
+                    <a href="#">@Html.DisplayFor(model => model.meta)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <dl class="dl-horizontal"></dl>
+</div>
+
+
+
+
+<p>
+    <a>@Html.ActionLink(".      Abrir comentarios      .", "Create", "comentarios", new { id = Model.cod_entrada, titu = Model.titulo,user = Model.AspNetUsers.usuario ,corre = Model.AspNetUsers.Email, dir = Model.docs.dir_archivo }, new { @class = "btn btn-primary" })</a>
+
+    <a>@Html.ActionLink("Inicio", "Index", null, new { @class = "btn btn-success" })</a>
+
+</p>

@@ -1,0 +1,68 @@
+﻿@model IEnumerable<biblioteca_2.Models.comentario>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.cont_comentario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fecha_comentario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.id_entrada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AspNetUsers1.Email)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+        @foreach (var item in Model)
+
+        {
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cont_comentario)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.fecha_comentario)
+                </td>
+                <td>
+
+                    @Html.DisplayFor(modelItem => item.fecha_comentario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AspNetUsers1.Email)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id_comentario }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.id_comentario }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id_comentario })
+                </td>
+
+            </tr>
+
+
+        }
+
+
+</table>
+
+
+
+@section Scripts {
+    
+    @Scripts.Render("~/bundles/jqueryval")
+}

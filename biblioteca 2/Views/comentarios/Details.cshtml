@@ -1,0 +1,57 @@
+﻿@model biblioteca_2.Models.comentario
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>comentario</h4>
+    <hr />
+
+
+
+
+
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.cont_comentario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cont_comentario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_comentario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_comentario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.id_entrada)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.id_entrada)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AspNetUsers1.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AspNetUsers1.Email)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_comentario }) 
+    <div>
+        <a>@Html.ActionLink("Cancelar", "Details", "Blogs", new { id = ViewBag.id }, new { @class = "btn btn-danger" })</a>
+    </div>
+</p>

@@ -1,0 +1,181 @@
+﻿@model biblioteca_2.Models.IndexViewModel
+@using biblioteca_2.Models;
+@using biblioteca_2.ayuda;
+@{
+    Database2 db = new Database2();
+    ViewBag.id = ayudas.ExtraerUs();
+    ViewBag.Title = "Mi Perfil o/";
+    Layout = "~/Views/Shared/View.cshtml";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <table class="table">
+        <tr>
+            <th></th>
+            <th><h3>Mi Informacion</h3></th>
+        </tr>
+        @foreach (var item in db.AspNetUsers)
+        {
+            if (item.Id == ViewBag.id)
+            {
+                <tr>
+                    <th>
+                        
+
+                        <dd>
+                            @if (item.fot_perfil != "" && item.fot_perfil != null)
+                            {
+                                <img src="~/subidas/perfiles/@item.fot_perfil" height="150" />
+                            }
+                        </dd>
+
+                    </th>
+                    <th>
+                        <dl class="dl-horizontal">
+                            <dt>
+                                @Html.DisplayNameFor(modelItem => item.Email)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(modelItem => item.Email)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(modelItem => item.PhoneNumber)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(modelItem => item.PhoneNumber)
+                            </dd>
+
+
+                            <dt>
+                                @Html.DisplayNameFor(modelItem => item.UserName)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(modelItem => item.UserName)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(modelItem => item.Nombre)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(modelItem => item.Nombre)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(modelItem => item.Apellido)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(modelItem => item.Apellido)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(modelItem => item.carne)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(modelItem => item.carne)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(modelItem => item.AspNetRoles.Name)
+                            </dt>
+
+                        </dl>
+                    </th>
+                </tr>
+            }
+
+        }
+    </table>
+    <a>@Html.ActionLink(" Editar", "Edit", "AspNetUsers", new {  ViewBag.id }, new { @class = "btn btn-primary fa fa-wrench" })</a>
+
+
+
+
+
+    <h4>Cambiar la configuración de la cuenta</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Contraseña:</dt>
+        <dd>
+            [
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink("Cambiar la contraseña", "ChangePassword")
+            }
+            else
+            {
+                @Html.ActionLink("Crear", "SetPassword")
+            }
+            ]
+        </dd>
+        <dt>Inicios de sesión externos:</dt>
+        <dd>
+            @Model.Logins.Count [
+            @Html.ActionLink("Administrar", "ManageLogins") ]
+        </dd>
+        @*
+            Los números de teléfono se pueden usar como una segunda fase de comprobación en un sistema de autenticación en dos fases.
+
+             Consulte <a href="https://go.microsoft.com/fwlink/?LinkId=403804">este artículo</a>
+                para obtener detalles sobre cómo configurar esta aplicación ASP.NET para que sea compatible con la autenticación en dos fases mediante SMS.
+
+             Quite la marca de comentario de los bloques siguientes después de configurar la autenticación en dos fases.
+        *@
+        @*
+            <dt>Número de teléfono:</dt>
+            <dd>
+                @(Model.PhoneNumber ?? "None")
+                @if (Model.PhoneNumber != null)
+                {
+                    <br />
+                    <text>[&nbsp;&nbsp;@Html.ActionLink("Change", "AddPhoneNumber")&nbsp;&nbsp;]</text>
+                    using (Html.BeginForm("RemovePhoneNumber", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <text>[<input type="submit" value="Quitar" class="btn-link" />]</text>
+                    }
+                }
+                else
+                {
+                    <text>[&nbsp;&nbsp;@Html.ActionLink("Add", "AddPhoneNumber")
+                }
+            </dd>
+        *@
+        <dt>Autenticación de dos factores:</dt>
+        <dd>
+            <p>
+                
+            </p>
+            @*@if (Model.TwoFactor)
+                {
+                    using (Html.BeginForm("DisableTwoFactorAuthentication", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <text>Habilitado
+                        <input type="submit" value="Deshabilitar" class="btn btn-link" />
+                        </text>
+                    }
+                }
+                else
+                {
+                    using (Html.BeginForm("EnableTwoFactorAuthentication", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <text>Deshabilitado
+                        <input type="submit" value="Habilitar" class="btn btn-link" />
+                        </text>
+                    }
+                }*@
+        </dd>
+    </dl>
+</div>

@@ -1,0 +1,76 @@
+﻿@model biblioteca_2.Models.comentario
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>comentario</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.id_comentario)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.id_entrada, "id_entrada", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("id_entrada", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.id_entrada, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserId_com, "UserId_com", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("UserId_com", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.UserId_com, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.cont_comentario, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <p class="lead emoji-picker-container">
+                    <textarea id="cont_comentario" cols="20" htmlattributes="{ class = form-control textarea-control }" name="cont_comentario" rows="2" data-emojiable="true"></textarea>
+                    @Html.ValidationMessageFor(model => model.cont_comentario, "", new { @class = "text-danger" })
+                </p>
+            </div>
+        </div>
+
+       
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+}
+
+    <div>
+        <a>@Html.ActionLink("Cancelar", "Details", "Blogs", new { id = ViewBag.id }, new { @class = "btn btn-danger" })</a>
+    </div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+   
+<script>
+    $(function () {
+        window.emojiPicker = new EmojiPicker({
+            emojiable_selector: '[data-emojiable=true]',
+            assetsPath: '../../emoji/lib/img',
+            popupButtonClasses: "fa fa-smile-o"
+        });
+        window.emojiPicker.discover();
+    });
+</script>
+       
+
+}

@@ -1,0 +1,98 @@
+﻿@model biblioteca_2.Models.docs
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/View.cshtml";
+}
+
+<h2>Detalles del Libro</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+        <br />
+        <dt>
+            Documento:
+        </dt>
+
+        <dd>
+            @if (Model.dir_archivo != "" && Model.dir_archivo != null)
+            {
+                <a href="~/subidas/archivos/@Model.dir_archivo" target="_blank" class="btn btn-warning">ver archivo</a>
+
+            }
+        </dd>
+        <br />
+        <dt>
+            @Html.DisplayNameFor(model => model.categoria)
+        </dt>
+
+        <dd>
+            @if (Model.categoria == 0)
+            {
+                <b>Generalidad</b>
+            }
+            else if (Model.categoria == 1)
+            {
+                <b>Filosoia y Psicologia </b>
+            }
+            else if (Model.categoria == 2)
+            {
+                <b>religion</b>
+            }
+            else if (Model.categoria == 3)
+            {
+                <b>Ciencias sociales</b>
+            }
+            else if (Model.categoria == 4)
+            {
+                <b>Lenguajes</b>
+            }
+            else if (Model.categoria == 5)
+            {
+                <b>Ciencias naturales y Matematica</b>
+            }
+            else if (Model.categoria == 6)
+            {
+                <b>Tecnologia</b>
+            }
+            else if (Model.categoria == 7)
+            {
+                <b>Artes</b>
+            }
+            else if (Model.categoria == 8)
+            {
+                <b>Literatura y retorica</b>
+            }
+            else if (Model.categoria == 9)
+            {
+                <b>Geografia e Historio</b>
+            }
+            else if (Model.categoria == 10)
+            {
+                <b>Tesis (copia :v)</b>
+            }
+        </dd>
+        <br />
+        <dt>
+            @Html.DisplayNameFor(model => model.autor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.autor)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <i class="fa fa-arrow-left" aria-hidden="true"><b>@Html.ActionLink("Volver a la Lista", "Index") |</b></i>
+    <i class="fa fa-pencil-square-o" aria-hidden="true"><b>@Html.ActionLink("Editar", "Edit", new { id = Model.id_archivo }) </b></i>
+
+</p>

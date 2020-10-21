@@ -1,0 +1,184 @@
+﻿@model biblioteca_2.Models.comentario
+@using PagedList.Mvc;
+@using PagedList;
+@using biblioteca_2.ayuda
+@using biblioteca_2.Models
+@{
+
+    Database2 db = new Database2();
+    ViewBag.Title = "Create";
+}
+
+<h1>@ViewBag.titulo</h1>
+<h1>
+    @if (ViewBag.dire != "" && ViewBag.dire != null)
+    {
+        <a href="~/subidas/archivos/@ViewBag.dire" target="_blank">Descargar</a>
+        <br />
+    }
+</h1>
+<div>
+    <h4>
+        Creado por: @ViewBag.usua
+        @if (ViewBag.usu != "" && ViewBag.usu != null)
+        {<b>@ViewBag.usu</b>}
+        @ViewBag.correo
+    </h4>
+    @if (ViewBag.portada != "" && ViewBag.portada != null)
+    {
+        <img src="~/subidas/portadas/@ViewBag.portada" height="500" />
+    }
+    <h6>Publicado el: @ViewBag.fech1</h6>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <p class="card-text">@Html.Raw(ViewBag.conte)</p>
+
+                </div>
+                <div class="card-footer text-muted">
+                    Creado el @ViewBag.fech2
+                    <a href="#">@ViewBag.metas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <dl class="dl-horizontal"></dl>
+</div>
+
+
+
+<h2>Comentarios...</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>comentario</h4>
+        <h4>Creado por: @ViewBag.id</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.cont_comentario, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <p class="lead emoji-picker-container">
+                    <textarea id="cont_comentario" cols="20" htmlattributes="{ class = form-control textarea-control }" name="cont_comentario" rows="2" data-emojiable="true"></textarea>
+                    @Html.ValidationMessageFor(model => model.cont_comentario, "", new { @class = "text-danger" })
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+
+            <div class="col-md-10">
+                <input id="UserId_com" class="form-control" name="UserId_com" type="hidden" value="@ViewBag.usuario">
+
+                @Html.ValidationMessageFor(model => model.UserId_com, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-md-10">
+
+                <input id="id_entrada" class="form-control text-box single-line" data-val-number="El campo id_entrada debe ser un numero." name="id_entrada" type="hidden" value="@ViewBag.id2">
+
+                @Html.ValidationMessageFor(model => model.id_entrada, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+                <a>@Html.ActionLink("Ocultar", "Details", "Blogs", new { id = ViewBag.id }, new { @class = "btn btn-warning" })</a>
+            </div>
+        </div>
+    </div>
+
+    <!--ahora es automatico:
+    <div class="form-group">
+        Html.LabelFor(model => model.fecha_comentario, htmlAttributes: new {  class = "control-label col-md-2" })
+        <div class="col-md-10">
+            Html.EditorFor(model => model.fecha_comentario, new { htmlAttributes = new { class = "form-control" } })
+            Html.ValidationMessageFor(model => model.fecha_comentario, "", new { class = "text-danger" })
+        </div>
+    </div>
+         <a>Html.ActionLink("Inicio", "Create", "comentarios",new { id=itm.cod_entrada , titu=itm.titulo , corre=itm.AspNetUsers.Email , port=itm.portada , fecha1=itm.fecha_publicacion , cont=itm.contenido , fecha2=itm.fecha_entrada , met=itm.meta},new { class = "btn btn-primary"})</a>
+
+        -->
+
+
+
+
+    <dl class="dl-horizontal">
+        @foreach (var item in db.comentario)
+        {
+            if (ViewBag.id == item.id_entrada)
+            {
+                <dt>
+                    Comentario de:
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(modelItem => item.cont_comentario)
+                </dd>
+                <dt>
+                    @if (item.AspNetUsers1.fot_perfil != "" && item.AspNetUsers1.fot_perfil != null)
+                    {
+                        <img src="~/subidas/perfiles/@item.AspNetUsers1.fot_perfil" height="60" />
+                    }
+                </dt>
+                <dd>
+                </dd>
+                <dt>
+
+                </dt>
+                <dd>
+                    @Html.DisplayNameFor(model => model.AspNetUsers1.Email):
+                    @Html.DisplayFor(modelItem => item.AspNetUsers1.Email)   Creado el:
+                    @Html.DisplayFor(modelItem => item.fecha_comentario)
+                </dd>
+                <dd></dd>
+
+               
+                
+            }
+
+        }
+    </dl>
+
+
+
+}
+
+
+
+<div>
+    <a>@Html.ActionLink("Regresar", "Index", "Blogs", null, new { @class = "btn btn-success" })</a>
+</div>
+
+@section Scripts {
+
+
+    <script>
+        $(function () {
+            window.emojiPicker = new EmojiPicker({
+                emojiable_selector: '[data-emojiable=true]',
+                assetsPath: '../../emoji/lib/img',
+                popupButtonClasses: "fa fa-smile-o"
+            });
+            window.emojiPicker.discover();
+        });
+    </script>
+
+
+    @Scripts.Render("~/bundles/jqueryval")
+}

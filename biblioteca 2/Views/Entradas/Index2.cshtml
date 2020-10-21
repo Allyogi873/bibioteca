@@ -1,0 +1,86 @@
+﻿@model IEnumerable<biblioteca_2.Models.entrada>
+@using PagedList.Mvc;
+@using PagedList;
+@{
+    ViewBag.Title = "Mis Entradas De Blog";
+    Layout = "~/Views/Shared/View.cshtml";
+}
+
+<h2>Mis Entradas De Blog</h2>
+
+<p>
+    @Html.ActionLink(" Nueva Entrada", "Create", null, new { @class= "btn btn-succes fa fa-pencil-square-o" })
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Portada
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.titulo)
+            </th>
+            <th>
+                Fecha De Creacion
+            </th>
+            <th>
+                Fecha De Publicacion
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.meta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.docs.nombre)
+            </th>
+
+            <th>
+                
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    @foreach (var item in ViewBag.pagina2)
+    {
+        <tr>
+            <td>
+                @if (item.portada != "" && item.portada != null)
+                {
+                    <img src="~/subidas/portadas/@item.portada" height="30" />
+                }
+            </td>
+            <td>
+                @item.titulo
+            </td>
+            <td>
+                @item.fecha_entrada
+            </td>
+            <td>
+                @item.fecha_publicacion
+            </td>
+            <td>
+                @item.meta
+            </td>
+            <td>
+                @if (item.docs.dir_archivo != "" && item.docs.dir_archivo != null)
+                {
+                    <a href="~/subidas/archivos/@item.docs.dir_archivo" target="_blank" class="fa fa-download"> @item.docs.nombre</a>
+                    <br />
+                }
+            </td>
+            <td>
+                @item.estado1.Name
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.cod_entrada }, new { @class = "btn btn-link fa fa-pencil-square-o" })
+                @Html.ActionLink("Detalles", "Details", new { id = item.cod_entrada }, new { @class = "btn btn-link fa fa-list-alt" }) 
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.cod_entrada }, new { @class = "btn btn-link fa fa-trash" })
+            </td>
+        </tr>
+    }
+
+
+
+</table>
+@Html.PagedListPager((IPagedList)ViewBag.pagina2, page2 => Url.Action("Index2", new { page2 = page2 }))

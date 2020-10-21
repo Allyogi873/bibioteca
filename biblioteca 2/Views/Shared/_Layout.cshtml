@@ -1,0 +1,136 @@
+﻿@using Microsoft.AspNet.Identity
+@using biblioteca_2.ayuda
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link href="~/Content/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/PagedList.css" type="text/css" rel="stylesheet" />
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/emoji/lib/css/emoji.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+
+<body background="imagenes/Portada.jpg">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Inicio", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @if (enlaces.comprobar("Home", "index"))
+                    {
+                        <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+                    }@if (enlaces.comprobar("Blogs", "index"))
+                    {
+                        <li>@Html.ActionLink("Blogs", "Index", "Blogs")</li>
+                    }@if (enlaces.comprobar("Blogs", "IndexLibro"))
+                    {
+                        <li>@Html.ActionLink("Libros", "IndexLibro", "Blogs")</li>
+                    }
+                    <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
+
+                    <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
+
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content" id="principal">
+        @RenderBody()
+        <hr />
+
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class=" footer-main">
+                <div class="footer-columna">
+                    <center>
+                        <h3>Mision</h3>
+                    </center>
+                    <h4>
+                        Coadyuvar a la formación, actualización y especialización de profesionales, estudiantes y usuarios externos, mediante la prestación de servicios de calidad y eficiencia, brindando recursos y materiales impresos, audiovisuales y
+                        digitales que promuevan la investigación científica y contribuyan al desarrollo de la Universidad y del país, mediante el cumplimiento de sus fines: docencia, investigación, extensión y servicio.
+                    </h4>
+                </div>
+
+                <div class="footer-columna">
+                    <center>
+                        <h3>Direccion</h3>
+                        @{ViewBag.mapa = "https://www.google.com/maps/place/Centro+Universitario+del+Norte/@15.4645151,-90.3922353,17z/data=!4m5!3m4!1s0x858a46dcb32a7f7d:0xb77c2c65c885495b!8m2!3d15.4646827!4d-90.389845"; }
+                        <span class="fa fa-map-marker"><b><a href="@ViewBag.mapa" target="_blank">Centro Universitario Del Norte -CUNOR-</a></b></span>
+                        <br />
+                        <span class="fa fa-phone"><b>(+502) 4603 9113</b></span>
+                        <br />
+                        <span class="fa fa-envelope"><b>allan1quezada@gmail.com</b></span>
+                    </center>
+                </div>
+
+                <div class="footer-columna">
+                    <center>
+                        <h3>Vision</h3>
+                    </center>
+                    <h4>
+                        Constituirse como el Centro líder de información de la Universidad, con el apoyo de las nuevas tecnologías de la información y la comunicación, establecer redes de vínculo entre las unidades de información a nivel regional y
+                        mundial, para el almacenamiento, recuperación y difusión de la información. Implementar políticas y desarrollar planes estratégicos que coadyuven al desarrollo de las colecciones cumpliendo con los estándares regionales e internacionales. Administrar y reinvertir en forma eficiente y eficaz los recursos que genera la Biblioteca.
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <div class="main-copy">
+                <div class="copy">
+                    <p>&copy; @DateTime.Now.Year - Copyright CUNOR </p>
+                </div>
+                <div class="redes">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                    <a href="#" class="fa fa-twitter" target="_blank"></a>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank"></a>
+                    <a href="https://github.com/yovafree/lab-cunor-771-2018" class="fa fa-github" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="~/emoji/lib/js/config.js"></script>
+    <script src="~/emoji/lib/js/util.js"></script>
+    <script src="~/emoji/lib/js/jquery.emojiarea.js"></script>
+    <script src="~/emoji/lib/js/emoji-picker.js"></script>
+
+
+    <script src="https://cdn.ckeditor.com/ckeditor5/11.1.1/classic/ckeditor.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <script src="~/scripts/bootstrap.bundle.min.js"></script>
+
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,204 @@
+﻿@model biblioteca_2.Models.entrada
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/View.cshtml";
+}
+
+<h2>Crear Nueva Entrada</h2>
+
+
+@using (Html.BeginForm("create", "Entradas", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        <label class="control-label col-md-2" for="titulo">Titulo</label>
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.titulo, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.titulo, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div>
+            <label class="control-label col-md-2" for="contenido">Contenido Del Blog</label>
+        </div>
+        <div class="col-md-10">
+            @Html.TextAreaFor(model => model.contenido, new { @class = "form-control", @cols = "50", @rows = "8" })
+            @Html.ValidationMessageFor(model => model.contenido, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2" for="fecha_publicacion">Fecha De Publicacion</label>
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.fecha_publicacion, new { htmlAttributes = new { @class = "form-control", @type = "date" } })
+            @Html.ValidationMessageFor(model => model.fecha_publicacion, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <!--hacer automatico-->
+    <div class="form-group">
+
+        <div class="col-md-10">
+            <input id="UserId" class="form-control" name="UserId" type="hidden" value="@ViewBag.usuario">
+
+            @Html.ValidationMessageFor(model => model.UserId, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2" for="meta">Meta Etiquetas</label>
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.meta, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.meta, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="control-label col-md-2"><label>Portada:</label></div>
+        <input type="file" accept="image/*" name="foto" class="btn btn-info">
+    </div>
+
+
+    <!--hacer automatico-->
+    <div class="form-group">
+
+        <label>Seleccionar archivo: <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bsqLibro">Buscar libro</button></label>
+        <div class="col-md-10">
+            @Html.HiddenFor(model => model.id_archivo)
+            &nbsp;
+            <span id="nombre_archivo"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Crear" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+
+    <div class="modal fade" id="bsqLibro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">LIBROS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" id="txtBusqueda" class="form-control" /><button class="btn btn-success" type="button" onclick="buscarLibro()">Buscar Libro</button>
+                    <table id="lstLibros" class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <td>nombre</td>
+                                <td>autor</td>
+                                <td>categoria</td>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+}
+
+<div>
+    <a>@Html.ActionLink("Cancelar", "Index", "Blogs", null, new { @class = "btn btn-danger" })</a>
+</div>
+
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+
+        });
+        ClassicEditor
+            .create(document.querySelector('#contenido'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+
+        });
+
+        function buscarLibro() {
+            var txt = $('#txtBusqueda').val();
+
+            if (txt != "") {
+                $.ajax({
+                    dataType: "json",
+                    url: "/Entradas/getLibro",
+                    data: { "busqueda": txt },
+                    success: function (data) {
+                        $("#lstLibros > tbody").html("");
+                        for (n = 0; n < data.length; n++) {
+                            var NuevaCat = "Mat_err";
+                            if (data[n].categoria == 0) {
+                                NuevaCat = "<b>Generalidad</b>";
+                            } else if (data[n].categoria == 1) {
+                                NuevaCat = "<b>Filosoia y Psicologia</b>";
+                            }
+                            else if (data[n].categoria == 2) {
+                                NuevaCat = "<b>religion</b>";
+                            }
+                            else if (data[n].categoria == 3) {
+                                NuevaCat = "<b>Ciencias sociales </b>"
+                            }
+                            else if (data[n].categoria == 4) {
+                                NuevaCat = "<b>Lenguajes</b>";
+                            }
+                            else if (data[n].categoria == 5) {
+                                NuevaCat = "<b>Ciencias naturales y Matematica</b>";
+                            }
+                            else if (data[n].categoria == 6) {
+                                NuevaCat = "<b>Tecnologia</b>";
+                            }
+                            else if (data[n].categoria == 7) {
+                                NuevaCat = "<b>Artes</b>";
+                            }
+                            else if (data[n].categoria == 8) {
+                                NuevaCat = "<b>Literatura y retorica</b>";
+                            }
+                            else if (data[n].categoria == 9) {
+                                NuevaCat = "<b>Geografia e Historio</b>";
+                            }
+                            else if (data[n].categoria == 10) {
+                                NuevaCat = "<b>Tesis (copia :v)</b>";
+                            }
+                            var fila = '<tr onclick="seleccionarLibro(' + data[n].id_archivo + ',\'' + data[n].nombre + '\')">';
+                            fila += "<td>" + data[n].nombre + "</td>";
+                            fila += "<td>" + data[n].autor + "</td>";
+                            fila += "<td>" + NuevaCat + "</td>";
+                            fila += "</tr>";
+                            $("#lstLibros > tbody").append(fila);
+                        }
+                    }
+
+                });
+            }
+        }
+
+        function seleccionarLibro(id_archivo, nombre) {
+            $('#id_archivo').val(id_archivo);
+            $('#nombre_archivo').html(nombre);
+        }
+
+    </script>
+    @Scripts.Render("~/bundles/jqueryval")
+}

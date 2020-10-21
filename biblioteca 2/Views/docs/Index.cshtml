@@ -1,0 +1,114 @@
+﻿@model IEnumerable<biblioteca_2.Models.docs>
+
+@{
+    ViewBag.Title = "Agregar Libro";
+    Layout = "~/Views/Shared/View.cshtml";
+}
+<h2>Agregar Libro</h2>
+
+<p>
+    @Html.ActionLink(" Crear Nuevo", "Create", null, new { @class = "btn btn-link fa fa-book" })
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nombre) del libro
+            </th>
+            <th>
+                Disponible para:
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.categoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.autor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+        @foreach (var item in Model)
+        {
+            if (item.id_archivo == 10)
+            {
+            }
+            else
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.nombre)
+                    </td>
+                    <td>
+                        @if (item.dir_archivo != "" && item.dir_archivo != null)
+                        {
+                            <a href="~/subidas/archivos/@item.dir_archivo" target="_blank" class="fa fa-download"> @item.nombre</a>
+                            <br />
+                        }
+                    </td>
+
+
+                    <td>
+
+                        @if (item.categoria == 0)
+                        {
+                            <b>Generalidad</b>
+                        }
+                        else if (item.categoria == 1)
+                        {
+
+                            <b>Filosoia y Psicologia</b>
+                        }
+                        else if (item.categoria == 2)
+                        {
+                            <b>Religion</b>
+                        }
+                        else if (item.categoria == 3)
+                        {
+                            <b>Ciencias sociales </b>
+                        }
+                        else if (item.categoria == 4)
+                        {
+                            <b>Lenguajes</b>
+                        }
+                        else if (item.categoria == 5)
+                        {
+                            <b>Ciencias naturales y Matematica</b>
+                        }
+                        else if (item.categoria == 6)
+                        {
+                            <b>Tecnologia</b>
+                        }
+                        else if (item.categoria == 7)
+                        {
+                            <b>Artes</b>
+                        }
+                        else if (item.categoria == 8)
+                        {
+                            <b>Literatura y retorica</b>
+                        }
+                        else if (item.categoria == 9)
+                        {
+                            <b>Geografia e Historio</b>
+                        }
+                        else if (item.categoria == 10)
+                        {
+                            <b>Tesis (Copia :v)</b>
+                        }
+                    </td>
+
+
+
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.autor)
+                    </td>
+                    <td>
+                        @Html.ActionLink(" Editar", "Edit", new { id = item.id_archivo }, new { @class = "btn btn-success fa fa-pencil-square-o" }) |
+                        @Html.ActionLink(" Detalles", "Details", new { id = item.id_archivo }, new { @class = "btn btn-primary fa fa-list-alt" }) |
+                        @Html.ActionLink(" Eliminar", "Delete", new { id = item.id_archivo }, new { @class = "btn btn-danger fa fa-trash" })
+                    </td>
+                </tr>
+            }
+        }
+
+</table>

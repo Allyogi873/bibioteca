@@ -1,0 +1,39 @@
+﻿@model biblioteca_2.Models.entrada
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/View.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Creado por: @Html.DisplayFor(model => model.AspNetUsers.Email) </h4>
+    @if (Model.portada != "" && Model.portada != null)
+    {
+        <img src="~/subidas/portadas/@Model.portada" height="500" />
+    }
+    <h6>Publicado el:@Html.DisplayFor(model => model.fecha_publicacion)</h6>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <p class="card-text">@Html.Raw(Model.contenido)</p>
+
+                </div>
+                <div class="card-footer text-muted">
+                    Creado @Html.DisplayFor(model => model.fecha_entrada)
+                    <a href="#">@Html.DisplayFor(model => model.meta)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <dl class="dl-horizontal"></dl>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.cod_entrada }) |
+    @Html.ActionLink("Back to List", "Index2")
+</p>

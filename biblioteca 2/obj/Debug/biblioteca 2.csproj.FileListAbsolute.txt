@@ -1,0 +1,690 @@
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\ApplicationInsights.config
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\biblioteca 2.dll.config
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\biblioteca 2.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\biblioteca 2.pdb
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\csc.exe
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\csc.exe.config
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\csc.rsp
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\csi.exe
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\csi.exe.config
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\csi.rsp
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.AppContext.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Console.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Compression.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Claims.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.ValueTuple.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\vbc.exe
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\vbc.exe.config
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\vbc.rsp
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Antlr3.Runtime.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\EntityFramework.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\EntityFramework.SqlServer.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Web.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Newtonsoft.Json.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Owin.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.Helpers.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.Mvc.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.Optimization.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.Razor.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\WebGrease.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.Helpers.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.Mvc.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.Optimization.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.Razor.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Newtonsoft.Json.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Antlr3.Runtime.pdb
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\EntityFramework.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\EntityFramework.SqlServer.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Web.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\es\System.Web.Razor.resources.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\es\EntityFramework.resources.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csproj.CoreCompileInputs.cache
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csproj.CopyComplete
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.pdb
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csprojAssemblyReference.cache
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\PagedList.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\PagedList.Mvc.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\X.PagedList.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\X.PagedList.Mvc.dll
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\PagedList.xml
+C:\Users\Allan quezada\source\repos\biblioteca 2\biblioteca 2\bin\PagedList.Mvc.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\ApplicationInsights.config
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\biblioteca 2.dll.config
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\biblioteca 2.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\biblioteca 2.pdb
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\csc.exe
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\csc.exe.config
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\csc.rsp
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\csi.exe
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\csi.exe.config
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\csi.rsp
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.AppContext.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Console.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Compression.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Claims.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.ValueTuple.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\vbc.exe
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\vbc.exe.config
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\vbc.rsp
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Antlr3.Runtime.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\EntityFramework.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\EntityFramework.SqlServer.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Web.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Newtonsoft.Json.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Owin.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\PagedList.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\PagedList.Mvc.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Helpers.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Mvc.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Optimization.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Razor.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\WebGrease.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\X.PagedList.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\X.PagedList.Mvc.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\PagedList.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\PagedList.Mvc.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Helpers.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Mvc.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Razor.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Optimization.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Newtonsoft.Json.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Antlr3.Runtime.pdb
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\EntityFramework.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\EntityFramework.SqlServer.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Web.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.Razor.resources.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\es\EntityFramework.resources.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csproj.CoreCompileInputs.cache
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csproj.CopyComplete
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.dll
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.pdb
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csproj.CoreCompileInputs.cache
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.pdb
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\ApplicationInsights.config
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\biblioteca 2.dll.config
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\biblioteca 2.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\biblioteca 2.pdb
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\csc.exe
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\csc.exe.config
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\csc.rsp
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\csi.exe
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\csi.exe.config
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\csi.rsp
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.AppContext.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Console.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Compression.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Claims.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.ValueTuple.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\vbc.exe
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\vbc.exe.config
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\vbc.rsp
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Antlr3.Runtime.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\EntityFramework.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\EntityFramework.SqlServer.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Web.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Newtonsoft.Json.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Owin.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\PagedList.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\PagedList.Mvc.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.Helpers.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.Mvc.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.Optimization.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.Razor.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\WebGrease.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\X.PagedList.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\X.PagedList.Mvc.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\PagedList.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\PagedList.Mvc.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.Helpers.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.Mvc.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.Razor.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Web.Optimization.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Newtonsoft.Json.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Antlr3.Runtime.pdb
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\EntityFramework.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\EntityFramework.SqlServer.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Web.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\es\System.Web.Razor.resources.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\es\EntityFramework.resources.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csproj.CopyComplete
+C:\Users\Allan quezada\Desktop\Nueva carpeta\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csprojAssemblyReference.cache
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\ApplicationInsights.config
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\biblioteca 2.dll.config
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\biblioteca 2.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\biblioteca 2.pdb
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\csc.exe
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\csc.exe.config
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\csc.rsp
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\csi.exe
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\csi.exe.config
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\csi.rsp
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.AppContext.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Console.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Compression.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Claims.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.ValueTuple.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\vbc.exe
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\vbc.exe.config
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\vbc.rsp
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Antlr3.Runtime.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\EntityFramework.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\EntityFramework.SqlServer.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Web.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Newtonsoft.Json.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Owin.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\PagedList.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\PagedList.Mvc.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.Helpers.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.Mvc.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.Optimization.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.Razor.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\WebGrease.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\X.PagedList.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\X.PagedList.Mvc.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\PagedList.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\PagedList.Mvc.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.Helpers.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.Mvc.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.Razor.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Web.Optimization.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Newtonsoft.Json.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Antlr3.Runtime.pdb
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\EntityFramework.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\EntityFramework.SqlServer.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Web.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\es\System.Web.Razor.resources.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\es\EntityFramework.resources.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csprojAssemblyReference.cache
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csproj.CoreCompileInputs.cache
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csproj.CopyComplete
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.dll
+C:\Users\Emmanuel Amperez\Downloads\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.pdb
+C:\Users\Allan quezada\Desktop\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csprojAssemblyReference.cache
+D:\Desktop\biblioteca 2\biblioteca 2\bin\ApplicationInsights.config
+D:\Desktop\biblioteca 2\biblioteca 2\bin\biblioteca 2.dll.config
+D:\Desktop\biblioteca 2\biblioteca 2\bin\biblioteca 2.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\biblioteca 2.pdb
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\csc.exe
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\csc.exe.config
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\csc.rsp
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\csi.exe
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\csi.exe.config
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\csi.rsp
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.AppContext.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Collections.Immutable.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Console.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Compression.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.FileSystem.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.IO.Pipes.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Reflection.Metadata.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.AccessControl.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Claims.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.ValueTuple.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XPath.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\vbc.exe
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\vbc.exe.config
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\vbc.rsp
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\VBCSCompiler.exe
+D:\Desktop\biblioteca 2\biblioteca 2\bin\roslyn\VBCSCompiler.exe.config
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Antlr3.Runtime.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\EntityFramework.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\EntityFramework.SqlServer.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.DependencyCollector.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Web.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.WindowsServer.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.ApplicationInsights.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Google.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Web.Infrastructure.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Newtonsoft.Json.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Owin.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\PagedList.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\PagedList.Mvc.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Helpers.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Mvc.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Optimization.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Razor.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Deployment.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Razor.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\WebGrease.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\X.PagedList.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\X.PagedList.Mvc.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\PagedList.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\PagedList.Mvc.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Helpers.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Mvc.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Razor.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Deployment.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.WebPages.Razor.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Web.Optimization.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Newtonsoft.Json.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Antlr3.Runtime.pdb
+D:\Desktop\biblioteca 2\biblioteca 2\bin\EntityFramework.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\EntityFramework.SqlServer.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Google.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.DependencyCollector.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.WindowsServer.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.AI.Web.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.Helpers.resources.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.Mvc.resources.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.Razor.resources.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.resources.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\es\System.Web.Optimization.resources.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\es\EntityFramework.resources.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\es\EntityFramework.SqlServer.resources.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Desktop\biblioteca 2\biblioteca 2\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Desktop\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csprojAssemblyReference.cache
+D:\Desktop\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csproj.CoreCompileInputs.cache
+D:\Desktop\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.csproj.CopyComplete
+D:\Desktop\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.dll
+D:\Desktop\biblioteca 2\biblioteca 2\obj\Debug\biblioteca 2.pdb

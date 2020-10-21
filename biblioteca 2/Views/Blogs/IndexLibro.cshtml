@@ -1,0 +1,212 @@
+﻿@model IEnumerable<biblioteca_2.Models.docs>
+@using PagedList.Mvc;
+@using PagedList;
+@using biblioteca_2.ayuda;
+@{
+    ViewBag.Title = "IndexLibro";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Libros</h2>
+
+<div class="row">
+    
+        <div class="col-md-6">
+            <div class="btn-group">
+                <button type="submit" class="btn btn-info dropdown-toggle fa fa-sort-alpha-asc"
+                        data-toggle="dropdown">  Ordenar Por: <span class="caret"></span>
+                </button>
+
+                <ul class="dropdown-menu" role="menu">
+                    <li>@Html.ActionLink("Nombre", "IndexLibro", "Blogs")</li>
+                    <li><a href="/Blogs/IndexLibro?busqueda=RammsteinRosenrot" id="hola">Autor</a></li>
+                    <li><a href="/Blogs/IndexLibro?busqueda=RammsteinRosenrot2" id="hola">Categoria</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        @using (Html.BeginForm("IndexLibro", "Blogs", FormMethod.Get, new { @class = "col-md-6" }))
+        {
+            <div class="card-body row no-gutters align-items-center">
+
+                <!--end of col-->
+                <div class="col">
+                    <input class="form-control form-control-sm form-control-borderless " name="busqueda" type="search" placeholder="Ingrese un texto de búsqueda.">
+                    <button class="btn btn-sm btn-success fa fa-search" type="submit"> Buscar</button>
+
+                </div>
+                <!--end of col-->
+                <div class="col-auto">
+
+                </div>
+                <!--end of col-->
+            </div>
+        }
+    </div>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.categoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.autor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dir_archivo)
+            </th>
+        </tr>
+    </thead>
+        @foreach (var item in ViewBag.pagina)
+        {
+            if (item.id_archivo == 10) { }
+            else
+            {
+
+                <tr>
+                    <td>
+                        @item.nombre
+                    </td>
+                    <td>
+                        @if (item.categoria == 0)
+                        {
+                            <b>Generalidad</b>
+                        }
+                        else if (item.categoria == 1)
+                        {
+
+                            <b>Filosoia y Psicologia</b>
+                        }
+                        else if (item.categoria == 2)
+                        {
+                            <b>religion</b>
+                        }
+                        else if (item.categoria == 3)
+                        {
+                            <b>Ciencias sociales </b>
+                        }
+                        else if (item.categoria == 4)
+                        {
+                            <b>Lenguajes</b>
+                        }
+                        else if (item.categoria == 5)
+                        {
+                            <b>Ciencias naturales y Matematica</b>
+                        }
+                        else if (item.categoria == 6)
+                        {
+                            <b>Tecnologia</b>
+                        }
+                        else if (item.categoria == 7)
+                        {
+                            <b>Artes</b>
+                        }
+                        else if (item.categoria == 8)
+                        {
+                            <b>Literatura y retorica</b>
+                        }
+                        else if (item.categoria == 9)
+                        {
+                            <b>Geografia e Historio</b>
+                        }
+                        else if (item.categoria == 10)
+                        {
+                            <b>Tesis (copia :v)</b>
+                        }
+                    </td>
+                    <td>
+                        @item.autor
+                    </td>
+                    <td>
+                        @if (item.dir_archivo != "" && item.dir_archivo != null)
+                        {
+                            <a href="~/subidas/archivos/@item.dir_archivo" target="_blank" class="fa fa-download"> @item.nombre</a>
+                            <br />
+                        }
+                    </td>
+
+                </tr>
+            }
+        }
+
+</table>
+@Html.PagedListPager((IPagedList)ViewBag.pagina, page => Url.Action("IndexLibro", new { page = page }))
+<script>
+    $(document).ready(function () {
+
+    });
+
+    function buscarLibro() {
+        var txt = $('#txtBusqueda').val();
+
+        if (txt != "") {
+            $.ajax({
+                dataType: "json",
+                url: "/Blogs/getLibro",
+                data: { "busqueda": txt },
+                success: function (data) {
+                    $("#lstLibros > tbody").html("");
+                    for (n = 0; n < data.length; n++) {
+                        var NuevaCat = "Mat_err";
+                        var Dire = "No Disponible";
+                        if (data[n].categoria == 0) {
+                            NuevaCat = "<b>Generalidad</b>";
+                        } else if (data[n].categoria == 1) {
+                            NuevaCat = "<b>Filosoia y Psicologia</b>";
+                        }
+                        else if (data[n].categoria == 2) {
+                            NuevaCat = "<b>religion</b>";
+                        }
+                        else if (data[n].categoria == 3) {
+                            NuevaCat = "<b>Ciencias sociales </b>"
+                        }
+                        else if (data[n].categoria == 4) {
+                            NuevaCat = "<b>Lenguajes</b>";
+                        }
+                        else if (data[n].categoria == 5) {
+                            NuevaCat = "<b>Ciencias naturales y Matematica</b>";
+                        }
+                        else if (data[n].categoria == 6) {
+                            NuevaCat = "<b>Tecnologia</b>";
+                        }
+                        else if (data[n].categoria == 7) {
+                            NuevaCat = "<b>Artes</b>";
+                        }
+                        else if (data[n].categoria == 8) {
+                            NuevaCat = "<b>Literatura y retorica</b>";
+                        }
+                        else if (data[n].categoria == 9) {
+                            NuevaCat = "<b>Geografia e Historio</b>";
+                        }
+                        else if (data[n].categoria == 10) {
+                            NuevaCat = "<b>Tesis (copia :v)</b>";
+                        }
+                        if (data[n].dir_archivo != "" && data[n].dir_archivo != null) {
+
+                            Dire = '<a href="/subidas/archivos/' + data[n].dir_archivo + '" target="_blank" class="fa fa-download">' + data[n].nombre + '</a >';
+                        }
+                        var fila = '<tr onclick="seleccionarLibro(' + data[n].id_archivo + ',\'' + data[n].nombre + '\')">';
+                        fila += "<td>" + data[n].nombre + "</td>";
+                        fila += "<td>" + data[n].autor + "</td>";
+                        fila += "<td>" + NuevaCat + "</td>";
+                        fila += "<td>" + Dire + "</td>";
+                        fila += "</tr>";
+                        $("#lstLibros > tbody").append(fila);
+                    }
+                }
+
+            });
+        }
+    }
+
+    function seleccionarLibro(id_archivo, nombre) {
+
+        $('#nombre_archivo').html(nombre);
+    }
+
+</script>
